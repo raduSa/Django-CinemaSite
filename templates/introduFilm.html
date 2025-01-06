@@ -1,0 +1,23 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Adaugă Film{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+{% endblock %}
+
+{% block content %}
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li class="{{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <form method="post" action="{% url 'introdu film' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Adaugă Film</button>
+    </form>
+{% endblock %}

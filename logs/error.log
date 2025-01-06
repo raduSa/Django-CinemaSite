@@ -1,0 +1,19 @@
+ERROR 2024-12-16 18:46:18,640 views Error saving film: 'FilmForm' has no field named 'image_url'.
+ERROR 2024-12-16 18:48:52,599 views Error saving film Ceva: 'FilmForm' has no field named 'image_url'.
+ERROR 2025-01-03 18:04:20,478 views Error saving film MARIOS: 'FilmForm' has no field named 'image_url'.
+ERROR 2025-01-05 15:30:11,401 views Error getting difuzare data: Field 'id' expected a number but got 'Inception'.
+ERROR 2025-01-05 15:32:47,642 views Error getting difuzare data: unhashable type: 'dict'
+ERROR 2025-01-05 15:33:32,412 views Error getting difuzare data: unhashable type: 'dict'
+ERROR 2025-01-05 15:35:05,759 views Error getting difuzare data: unhashable type: 'dict'
+ERROR 2025-01-05 15:35:43,369 views Error getting difuzare data: unhashable type: 'dict'
+ERROR 2025-01-05 15:36:01,683 views Error getting difuzare data: unhashable type: 'dict'
+ERROR 2025-01-05 15:36:15,380 views Error getting difuzare data: unhashable type: 'dict'
+ERROR 2025-01-05 15:36:33,636 views Error getting difuzare data: unhashable type: 'dict'
+ERROR 2025-01-05 15:39:33,391 views Error getting difuzare data: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+ERROR 2025-01-05 18:07:09,392 views Error generating PDF: 'nr_bilet'
+ERROR 2025-01-06 19:03:20,554 views Error saving view: Film matching query does not exist.
+ERROR 2025-01-06 21:42:36,282 views Error getting difuzare data: 'QuerySet' object does not support item assignment
+ERROR 2025-01-06 21:46:34,142 views Error getting difuzare data: 'QuerySet' object does not support item assignment
+ERROR 2025-01-06 22:04:07,968 views Error getting difuzare data: Field 'id' expected a number but got 'promo_test11'.
+ERROR 2025-01-06 22:05:05,381 views Error getting difuzare data: dictionary changed size during iteration
+ERROR 2025-01-06 22:09:04,967 views Error getting difuzare data: dictionary changed size during iteration

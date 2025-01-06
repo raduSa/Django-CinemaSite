@@ -1,0 +1,30 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Detalii Film{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/detalii_promotie.css' %}">
+{% endblock %}
+
+{% block content %}
+<main class="detalii-promo-container">
+    <section class="promo-header">
+        <h1>{{ promotie.nume }}</h1>
+        <p>Data creare: {{ promotie.data_creare }}</p>
+        <p>Data expirare: {{ promotie.data_expirare }}</p>
+        <p>Discount: {{ promotie.discount }}</p>
+        <p>Limita utilizari: {{ promotie.limita_utilizari }}</p>
+    </section>
+
+    <section class="promo-categories">
+        <h3>Categorii parte din promotie:</h3>
+        <ul>
+            {% for category in category_list %}
+                <li>{{ category.nume }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+</main>
+{% endblock %}
+

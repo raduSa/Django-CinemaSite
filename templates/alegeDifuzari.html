@@ -1,0 +1,17 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Alege difuzari{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        <b>Alegeti difuzarile pe care le doriti:</b>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Trimite</button>
+    </form>
+{% endblock %}

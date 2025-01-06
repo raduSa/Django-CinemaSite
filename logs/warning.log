@@ -1,0 +1,11 @@
+WARNING 2024-12-15 21:38:56,748 log Not Found: /favicon.ico
+WARNING 2024-12-15 21:38:56,749 basehttp "GET /favicon.ico HTTP/1.1" 404 2357
+WARNING 2024-12-16 18:26:41,105 log Not Found: /favicon.ico
+WARNING 2024-12-16 18:26:41,105 basehttp "GET /favicon.ico HTTP/1.1" 404 2357
+WARNING 2024-12-16 18:46:18,639 views Error downloading the image: https://www.imdb.com/title/idk/
+WARNING 2024-12-16 18:48:26,608 views Error downloading the image: https://www.imdb.com/title/idk/
+WARNING 2024-12-16 18:48:52,598 views Error downloading the image: https://www.imdb.com/title/idk/
+WARNING 2024-12-17 13:12:14,149 views Unauthorized user ioan tried to add a film
+WARNING 2024-12-17 21:42:49,146 views Unauthorized user ioan tried to add a film
+WARNING 2025-01-03 16:32:03,315 views Unauthorized user radu5 tried to add a film
+WARNING 2025-01-03 18:04:20,478 views Error downloading the image: https://www.imdb.com/title/idk/

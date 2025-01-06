@@ -1,0 +1,46 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block content %}
+<main class="home-container">
+    <section class="banner-section">
+        <a href="{% url 'permisiune_oferta' %}" id="banner">Oferta Reducere 50%</a>
+    </section>
+
+    <section class="welcome-section">
+        <h1>Bun venit la Cinema Online!</h1>
+        <p>Alege filmul preferat și cumpără biletele acum!</p>
+    </section>
+
+    <section class="image-section">
+        <img src="{% static 'images/logo_test.png' %}" alt="Cinema Banner" class="cinema-banner">
+    </section>
+    
+    <section class="links-section">
+        <a href="{% url 'filme' %}">Vedeti tot catalogul filmelor noastre</a>
+        <a href="{% url 'contact' %}">Scrieti-ne un mesaj</a>
+        <a href="{% url 'bilete' %}">Cumparati bilete</a>
+    </section>
+
+    {% if user.is_staff %}
+    <hr class="separator">
+        <section class="admin">
+            <i>Sectiune admin</i>
+            <a href="{% url 'introdu film' %}">Introdu un nou film</a>
+            <a href="{% url 'promotii' %}">Introdu o noua promotie</a>
+        </section>
+    {% endif %}
+</main>
+{% endblock %}
+
+{% block script %}
+    {% if user.is_authenticated %}
+        <script src="{% static 'js/home.js' %}"></script>
+    {% endif %}
+{% endblock %}

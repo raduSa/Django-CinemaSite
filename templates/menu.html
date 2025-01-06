@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Menu{% endblock %}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/menu.css' %}">
+    {% block style %}
+    <!-- Additional CSS can be added here in derived templates -->
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="{% url 'home' %}">Cinema Online</a>
+            </div>
+
+            <div class="welcome-message">
+                {% if user.is_authenticated %}
+                    Buna, {{ user.username }}
+                {% endif %}
+            </div>
+
+            <div class="navbar-content">
+                <ul class="nav-links">
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    {% if user.is_authenticated %}
+                        <li><a href="{% url 'profile' %}">Profil</a></li>
+                        <li><a href="{% url 'logout' %}">Logout</a></li>
+                    {% else %}
+                        <li><a href="{% url 'login' %}">Login</a></li>
+                        <li><a href="{% url 'register' %}">Inregistrare</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        {% block content %}
+        <!-- Page-specific content will go here -->
+        {% endblock %}
+    </main>
+    <footer>
+        <p>{% now "M d, Y" %}</p>
+    </footer>
+    <script src="{% static 'js/menu.js' %}"></script>
+    {% block script %}
+    <!-- Additional JS can be added here in derived templates -->
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,43 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Detalii Film{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/detalii_film.css' %}">
+{% endblock %}
+
+{% block content %}
+<main class="detalii-film-container">
+    <section class="film-header">
+        <h1>{{ film.titlu }}</h1>
+        <p>{{ film.descriere }}</p>
+        <p><strong>Durata:</strong> {{ film.durata }} min</p>
+    </section>
+
+    {% if film.imagine %}
+    <section class="film-image">
+        <img src="{{ film.imagine.url }}" alt="{{ film.titlu }}" class="film-banner">
+    </section>
+    {% endif %}
+
+    <section class="film-categories">
+        <h3>Categorii:</h3>
+        <ul>
+            {% for category in category_list %}
+                <li>{{ category.nume }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section class="film-actors">
+        <h3>Actori:</h3>
+        <ul>
+            {% for actor in actor_list %}
+                <li><a href="{% url 'actor' id=actor.id %}">{{ actor.nume }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+</main>
+{% endblock %}
+

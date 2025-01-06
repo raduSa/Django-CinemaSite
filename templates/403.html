@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title>{% if title %}{{ title }}{% else %}Eroare 403{% endif %}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+        }
+        h1 {
+            color: red;
+        }
+        .salutare {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+        .mesaj {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>{% if title %}{{ title }}{% else %}Eroare 403{% endif %}</h1>
+    <p class="salutare">
+        {% if user.is_authenticated %}
+            Salut {{ user.username }}
+        {% else %}
+            Salut preastimate anonim
+        {% endif %}
+    </p>
+    <p class="message">
+        {% if message %}
+            {{ message }}
+        {% else %}
+            Accesul la resursa curentă nu este permis.
+        {% endif %}
+    </p>
+</body>
+</html>

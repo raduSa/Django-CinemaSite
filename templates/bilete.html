@@ -1,0 +1,44 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Bilete{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/tickets.css' %}">
+{% endblock %}
+
+{% block content %}
+    {% if messages %}   
+    <ul class="messages">
+        {% for message in messages %}
+        <li class="{{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <b>{{ nume }}</b>
+
+    {% for difuzare in bilete %}
+        <article data-id="{{ difuzare.id }}" id="difuzare-{{ difuzare.id }}">
+            <p><strong>Ora:</strong> {{ difuzare.timp_start }}</p>
+            <p><strong>Este 3D:</strong> {{ difuzare.este_3D }}</p>
+            <p><strong>Sala:</strong> Nr {{ difuzare.sala.numar }} - {{ difuzare.sala.cinematograf.oras }}</p>
+            <p><strong>Locuri rămase:</strong> {{ difuzare.nr_locuri }}</p>
+
+            <div class="actions">
+                <button data-id="{{ difuzare.id }}" class="add_to_cart">Adaugă în coș</button>
+                <button data-id="{{ difuzare.id }}" class="remove_from_cart">Șterge din coș</button>
+                <input type="number" class="quantity" id="input_difuzare-{{ difuzare.id }}" value="0" min="0" 
+                    max="{{ difuzare.nr_locuri }}" data-id="{{ difuzare.id }}">
+                <button class="increase" data-id="{{ difuzare.id }}">+</button>
+                <button class="decrease" data-id="{{ difuzare.id }}">-</button>
+            </div>
+        </article>
+    {% endfor %}
+    
+    <a href="{% url 'shopping_cart' %}" class="view_cart">Vizualizează coș!</a>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'js/tickets.js' %}"></script>
+{% endblock %}

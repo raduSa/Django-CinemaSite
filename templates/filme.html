@@ -1,0 +1,32 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Catalog{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/filme.css' %}">
+{% endblock %}
+
+{% block content %}
+    <main class="films-container">
+        <section class="films">
+            {% for film in filme %}
+                <div class="film-item">
+                    {% if film.imagine %}
+                        <img src="{{ film.imagine.url }}" alt="Film Image" class="film-image">
+                    {% else %}
+                        <img src="{% static 'images/placeholder_banner.png' %}" alt="Placeholder Image" class="film-image">
+                    {% endif %}
+
+                    <div class="film-details">
+                        <h2>{{ film.titlu }}</h2>
+                        <p>{{ film.descriere }}</p>
+                        <p><strong>Durata:</strong> {{ film.durata }} min</p>
+                        <p><strong>Data apariției:</strong> {{ film.data_aparitie }}</p>
+                        <a href="{% url 'film' id=film.id %}">Pagina film</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </section>
+    </main>
+{% endblock %}

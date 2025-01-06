@@ -1,0 +1,49 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Adaugă Film{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        {% csrf_token %}
+        {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li class="{{ message.tags }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {{ form.non_field_errors }}
+        <div>
+            {{ form.nume.label_tag }} {{ form.nume }}
+            {{ form.nume.errors }}
+        </div>
+        <div>
+            {{ form.data_creare.label_tag }} {{ form.data_creare }}
+            {{ form.data_creare.errors }}
+        </div>
+        <div>
+            {{ form.data_expirare.label_tag }} {{ form.data_expirare }}
+            {{ form.data_expirare.errors }}
+        </div>
+        <div>
+            {{ form.discount.label_tag }} {{ form.discount }}
+            {{ form.discount.errors }}
+        </div>
+        <div>
+            {{ form.limita_utilizari.label_tag }} {{ form.limita_utilizari }}
+            {{ form.limita_utilizari.errors }}
+        </div>
+        <div>
+            {{ form.categorii.label_tag }} {{ form.categorii }}
+            {{ form.categorii.errors }}
+        </div>
+        <button type="submit">Salveaza Promotie</button>
+    </form>
+{% endblock %}
+
+

@@ -1,0 +1,51 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Bilete{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/shopping_cart.css' %}">
+{% endblock %}
+
+{% block content %}
+    <script>
+        const csrfToken = '{{ csrf_token }}';
+    </script>
+
+    <table id="cartTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Nume film</th>
+                <th class="text-right" onclick="sortTable(1, true)">Pret bilet</th>
+                <th class="text-right">Timp inceput</th>
+                <th class="text-right">Nr Sala</th>
+                <th class="text-right">Nr bilete</th>
+                <th class="text-right">Pret total</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <div id="totals" class="text-left">
+        <p><strong>Bilete:</strong> <span id="totalItems">0</span></p>
+        <p><strong>Pret total:</strong> <span id="totalPrice">0.00</span></p>
+    </div>
+    
+    <button id="buy">Cumpara</button>
+    <button id="empty">Goleste cosul</button>
+    <br>
+    <i class="sort-info">
+        Puteti apasa pe <strong>Nume film</strong> si <strong>Pret bilet</strong> pentru a sorta intrarile dupa coloane.
+    </i>
+
+    <section class="used-promos">
+        <h1>Promotii aplicate:</h1>
+        <ul id="promo-list"></ul>
+    </section>
+{% endblock %}
+
+{% block script %}
+    <script src="{% static 'js/shopping_cart.js' %}"></script>
+{% endblock %}

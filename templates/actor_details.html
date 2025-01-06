@@ -1,0 +1,26 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Detalii Actor{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/detalii_actor.css' %}">
+{% endblock %}
+
+{% block content %}
+<main class="detalii-actor-container">
+    <section class="actor-header">
+        <h1>{{ actor.nume }}</h1>
+        <p>{{ actor.descriere }}</p>
+    </section>
+
+    <section class="actor-films">
+        <h3>Filme in care a jucat:</h3>
+        <ul>
+            {% for film in film_list %}
+                <li><a href="{% url 'film' id=film.id %}">{{ film.titlu }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+</main>
+{% endblock %}

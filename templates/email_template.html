@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title>Bun venit!</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <img src="{{ url_imagine }}" alt="Site Logo" width="150" />
+        <h2>Bun venit, {{ nume }} {{ prenume }}!</h2>
+        <p>Confirmă-ți adresa de e-mail pentru a finaliza procesul de înregistrare.</p>
+        <p>Username: {{ username }}</p>
+        <p><a href="{{ confirmation_link }}" style="background-color: #4CAF50; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Confirma e-mailul</a></p>
+    </div>
+</body>
+</html>

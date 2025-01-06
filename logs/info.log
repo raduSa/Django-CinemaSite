@@ -1,0 +1,278 @@
+INFO 2024-12-15 18:57:08,057 autoreload Watching for file changes with StatReloader
+INFO 2024-12-15 18:57:14,055 autoreload D:\Lab Django\Proiect\Proiect\settings.py changed, reloading.
+INFO 2024-12-15 21:37:17,050 autoreload Watching for file changes with StatReloader
+INFO 2024-12-15 21:38:48,953 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-15 21:38:49,697 autoreload Watching for file changes with StatReloader
+INFO 2024-12-15 21:38:56,634 basehttp "GET /app1/promotii HTTP/1.1" 200 2397
+WARNING 2024-12-15 21:38:56,748 log Not Found: /favicon.ico
+WARNING 2024-12-15 21:38:56,749 basehttp "GET /favicon.ico HTTP/1.1" 404 2357
+INFO 2024-12-15 21:39:01,330 basehttp "GET /app1/bilete HTTP/1.1" 200 858
+INFO 2024-12-15 21:39:04,258 views Showing The Wolf of Wall Street... Accessed by user: None
+INFO 2024-12-15 21:39:04,270 basehttp "POST /app1/bilete HTTP/1.1" 200 159
+INFO 2024-12-15 21:42:58,464 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-15 21:42:59,129 autoreload Watching for file changes with StatReloader
+INFO 2024-12-15 21:43:09,611 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-15 21:43:10,251 autoreload Watching for file changes with StatReloader
+INFO 2024-12-15 21:43:49,993 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-15 21:43:50,661 autoreload Watching for file changes with StatReloader
+INFO 2024-12-15 21:44:28,805 basehttp "POST /app1/promotii HTTP/1.1" 200 2527
+INFO 2024-12-15 21:44:38,500 basehttp "POST /app1/promotii HTTP/1.1" 302 0
+INFO 2024-12-15 21:44:38,506 basehttp "GET /app1/mesaj_primit HTTP/1.1" 200 13
+INFO 2024-12-15 21:46:34,582 autoreload D:\Lab Django\Proiect\Proiect\settings.py changed, reloading.
+INFO 2024-12-15 21:46:35,278 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:17:25,534 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:24:13,567 autoreload D:\Lab Django\Proiect\app1\models.py changed, reloading.
+INFO 2024-12-16 17:24:14,420 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:25:29,566 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:25:30,338 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:26:48,715 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:26:49,522 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:27:08,508 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:27:09,329 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:28:02,798 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:28:03,555 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:31:57,189 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:31:58,072 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:32:02,501 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:32:03,294 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:33:38,867 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:33:39,546 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:34:36,133 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:34:36,919 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:36:14,004 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:36:14,666 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:37:05,714 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:37:06,395 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:38:36,329 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:38:36,965 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:40:56,812 autoreload D:\Lab Django\Proiect\Proiect\settings.py changed, reloading.
+INFO 2024-12-16 17:40:57,566 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 17:41:08,165 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 17:41:08,949 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 18:26:40,837 basehttp "GET /admin/app1/customuser/ HTTP/1.1" 200 14238
+INFO 2024-12-16 18:26:40,968 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+WARNING 2024-12-16 18:26:41,105 log Not Found: /favicon.ico
+WARNING 2024-12-16 18:26:41,105 basehttp "GET /favicon.ico HTTP/1.1" 404 2357
+INFO 2024-12-16 18:26:43,543 basehttp "GET /admin/app1/customuser/1/change/ HTTP/1.1" 200 31384
+INFO 2024-12-16 18:26:43,615 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-16 18:26:47,333 basehttp "GET /admin/app1/customuser/ HTTP/1.1" 200 14238
+INFO 2024-12-16 18:26:48,741 basehttp "GET /admin/app1/customuser/18/change/ HTTP/1.1" 200 31574
+INFO 2024-12-16 18:26:48,827 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-16 18:26:52,821 basehttp "GET /admin/app1/customuser/ HTTP/1.1" 200 14238
+INFO 2024-12-16 18:26:54,199 basehttp "GET /admin/app1/customuser/19/change/ HTTP/1.1" 200 31553
+INFO 2024-12-16 18:26:54,260 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-12-16 18:27:01,473 basehttp "GET /admin/app1/customuser/ HTTP/1.1" 200 14238
+INFO 2024-12-16 18:27:05,749 basehttp "GET /app1/register HTTP/1.1" 200 2056
+INFO 2024-12-16 18:28:31,712 basehttp "POST /app1/register HTTP/1.1" 200 2310
+INFO 2024-12-16 18:29:09,220 basehttp "POST /app1/register HTTP/1.1" 302 0
+INFO 2024-12-16 18:29:09,230 basehttp "GET /app1/login HTTP/1.1" 200 743
+INFO 2024-12-16 18:31:11,257 basehttp "POST /app1/login HTTP/1.1" 200 28
+INFO 2024-12-16 18:31:43,021 views User alt_user confirmed email
+INFO 2024-12-16 18:31:43,022 basehttp "GET /app1/confirm_email/c8ml8hVP4A03JcMmDTJdE9VJoFPpWH5HuYZSY1mxrQu1Yir9bSKYH9vT3KRua2Pes7aVgpmUKm1fxmP HTTP/1.1" 200 25
+INFO 2024-12-16 18:32:23,089 views User alt_user logged in
+INFO 2024-12-16 18:32:23,093 basehttp "POST /app1/login HTTP/1.1" 302 0
+INFO 2024-12-16 18:32:23,143 basehttp "GET /app1/profile HTTP/1.1" 200 233
+INFO 2024-12-16 18:33:11,225 autoreload D:\Lab Django\Proiect\Proiect\settings.py changed, reloading.
+INFO 2024-12-16 18:33:12,199 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 18:33:39,611 basehttp "GET /app1/login HTTP/1.1" 200 743
+INFO 2024-12-16 18:33:40,382 views User {request.user.username} logged out
+INFO 2024-12-16 18:33:40,390 basehttp "GET /app1/logout HTTP/1.1" 302 0
+INFO 2024-12-16 18:33:40,397 basehttp "GET /app1/home HTTP/1.1" 200 143
+INFO 2024-12-16 18:33:42,074 basehttp "GET /app1/login HTTP/1.1" 200 743
+INFO 2024-12-16 18:33:46,287 views User alt_user logged in
+INFO 2024-12-16 18:33:46,291 basehttp "POST /app1/login HTTP/1.1" 302 0
+INFO 2024-12-16 18:33:46,348 basehttp "GET /app1/profile HTTP/1.1" 200 233
+INFO 2024-12-16 18:34:15,443 autoreload D:\Lab Django\Proiect\app1\views.py changed, reloading.
+INFO 2024-12-16 18:34:16,331 autoreload Watching for file changes with StatReloader
+INFO 2024-12-16 18:36:17,484 autoreload D:\Lab Django\Proiect\Proiect\settings.py changed, reloading.
+INFO 2024-12-16 18:40:32,552 views User alt_user logged in
+INFO 2024-12-16 18:43:18,332 views User  logged out
+INFO 2024-12-16 20:56:15,071 views User alt_user logged in
+INFO 2024-12-16 20:57:26,949 views User alt_user logged in
+INFO 2024-12-16 20:57:56,330 views Showing Pulp Fiction... Accessed by user: 23
+INFO 2024-12-16 21:00:49,068 views User radu2 logged in
+INFO 2024-12-16 22:20:03,528 views User  logged out
+INFO 2024-12-16 23:16:26,502 views User ioan logged in
+INFO 2024-12-17 13:42:50,081 views User ioan logged in
+INFO 2024-12-17 21:46:15,409 views User radu logged in
+INFO 2024-12-18 17:34:39,012 views User  logged out
+INFO 2024-12-18 17:34:46,335 views User radu2 logged in
+INFO 2024-12-18 17:38:23,883 views User radu2 logged in
+INFO 2024-12-18 17:46:10,076 views User radu2 logged in
+INFO 2024-12-18 17:48:59,270 views User radu2 logged in
+INFO 2024-12-18 17:49:17,158 views User  logged out
+INFO 2024-12-18 17:53:03,000 views User radu2 logged in
+INFO 2024-12-18 20:31:47,305 views User  logged out
+INFO 2024-12-18 20:32:05,817 views User radu2 logged in
+INFO 2024-12-18 20:35:06,797 views User  logged out
+INFO 2024-12-18 20:58:54,992 views User radu2 logged in
+INFO 2024-12-18 20:59:52,148 views User  logged out
+INFO 2024-12-18 21:01:10,411 views User radu logged in
+INFO 2024-12-19 14:36:38,838 views Showing Interstellar... Accessed by user: None
+INFO 2024-12-19 14:46:35,058 views Showing Inception... Accessed by user: None
+INFO 2024-12-19 14:46:37,647 views Showing Inception... Accessed by user: None
+INFO 2024-12-19 14:49:31,156 views Showing Inception... Accessed by user: None
+INFO 2024-12-19 14:49:55,797 views Showing Inception... Accessed by user: None
+INFO 2024-12-19 14:50:12,841 views Showing Inception... Accessed by user: None
+INFO 2024-12-19 14:51:06,055 views Showing Inception... Accessed by user: None
+INFO 2024-12-19 14:53:04,127 views Showing Inception... Accessed by user: None
+INFO 2024-12-19 14:53:08,911 views Showing Inception... Accessed by user: None
+INFO 2024-12-19 14:54:04,589 views Showing Inception... Accessed by user: None
+INFO 2024-12-19 15:01:26,639 views User radu5 confirmed email
+INFO 2024-12-19 15:01:34,906 views User radu5 logged in
+INFO 2024-12-19 15:08:19,939 views User radu logged in
+INFO 2025-01-03 16:30:13,924 views User radu5 logged in
+INFO 2025-01-03 16:33:02,935 views User radu2 logged in
+INFO 2025-01-03 16:34:40,078 views Showing Inception... Accessed by user: 18
+INFO 2025-01-03 16:34:43,688 views Showing The Godfather... Accessed by user: 18
+INFO 2025-01-03 18:34:26,772 views Showing The Matrix... Accessed by user: 18
+INFO 2025-01-03 18:35:24,475 views Showing Inception... Accessed by user: 18
+INFO 2025-01-03 18:55:38,139 views User  logged out
+INFO 2025-01-03 21:17:23,309 tasks Deleted users who have not confirmed email
+INFO 2025-01-03 21:38:09,653 tasks Deleted users who have not confirmed email
+INFO 2025-01-03 21:52:21,299 tasks Sending newsletter to {'djangonuts232@gmail.com', 'radusavin2004@gmail.com', 'calin.marinescu17@yahoo.com'}
+INFO 2025-01-03 21:56:27,172 tasks Sending newsletter to {'radusavin2004@gmail.com', 'djangonuts232@gmail.com', 'calin.marinescu17@yahoo.com'}
+INFO 2025-01-03 22:39:26,437 tasks Created random film schedule for each cinema
+INFO 2025-01-03 22:39:56,555 tasks Created random film schedule for each cinema
+INFO 2025-01-03 22:40:26,705 tasks Created random film schedule for each cinema
+INFO 2025-01-03 22:42:51,674 tasks Created random film schedule for each cinema
+INFO 2025-01-03 22:43:21,745 tasks Created random film schedule for each cinema
+INFO 2025-01-03 22:51:02,879 tasks Created random film schedule for each cinema
+INFO 2025-01-03 23:26:34,404 tasks Reminding admins about recieved messages
+INFO 2025-01-03 23:28:34,743 tasks Reminding admins about recieved messages
+INFO 2025-01-03 23:28:44,753 tasks Reminding admins about recieved messages
+INFO 2025-01-03 23:32:21,806 tasks Reminding admins about recieved messages
+INFO 2025-01-04 14:47:34,944 views User radu2 logged in
+INFO 2025-01-04 14:48:18,712 views User radu logged in
+INFO 2025-01-04 14:56:20,964 views User radu2 logged in
+INFO 2025-01-04 14:56:56,875 views User radu logged in
+INFO 2025-01-04 14:57:20,980 views User radu2 logged in
+INFO 2025-01-04 14:57:52,507 views User radu logged in
+INFO 2025-01-04 16:58:06,645 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 17:08:43,774 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 17:08:59,073 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 17:09:01,860 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 17:09:20,364 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 17:09:44,896 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 17:12:24,601 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 17:13:13,154 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 17:13:59,807 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 17:14:07,323 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 17:16:42,434 views Showing The Matrix... Accessed by user: 1
+INFO 2025-01-04 17:18:13,265 views Showing The Matrix... Accessed by user: 1
+INFO 2025-01-04 17:28:46,668 tasks Created random film schedule for each cinema
+INFO 2025-01-04 17:29:06,732 tasks Created random film schedule for each cinema
+INFO 2025-01-04 17:33:39,072 tasks Created random film schedule for each cinema
+INFO 2025-01-04 17:33:59,143 tasks Created random film schedule for each cinema
+INFO 2025-01-04 17:35:03,306 tasks Created random film schedule for each cinema
+INFO 2025-01-04 17:36:35,082 tasks Reminding admins about recieved messages
+INFO 2025-01-04 17:37:46,114 views Showing The Matrix... Accessed by user: 1
+INFO 2025-01-04 17:38:15,487 views Showing The Matrix... Accessed by user: 1
+INFO 2025-01-04 17:38:25,429 views Showing The Matrix... Accessed by user: 1
+INFO 2025-01-04 17:38:31,938 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 17:42:47,755 tasks Created random film schedule for each cinema
+INFO 2025-01-04 17:49:07,809 tasks Created random film schedule for each cinema
+INFO 2025-01-04 17:50:10,470 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 17:55:20,136 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 17:55:24,932 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 18:52:15,501 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 18:53:08,069 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 18:54:21,734 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 19:11:04,885 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 19:13:10,126 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 19:29:00,605 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 19:29:48,324 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 19:29:57,525 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-04 19:30:01,292 views Showing Pulp Fiction... Accessed by user: 1
+INFO 2025-01-04 19:30:48,059 views Showing Pulp Fiction... Accessed by user: 1
+INFO 2025-01-04 19:37:09,115 views Showing Pulp Fiction... Accessed by user: 1
+INFO 2025-01-04 19:44:24,907 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 19:45:28,579 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 19:45:32,743 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 19:46:32,380 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 19:47:39,552 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 19:47:52,953 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 20:41:10,531 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 20:43:37,062 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 20:46:27,963 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 20:47:16,622 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 20:51:49,064 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 20:53:01,775 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 20:57:05,487 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 20:58:00,656 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:01:33,739 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:04:13,697 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:07:25,495 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:08:13,878 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:08:40,587 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:09:18,471 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:09:54,660 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:10:21,204 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:10:41,643 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:11:57,872 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:14:23,715 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:17:30,485 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:18:56,321 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:19:54,456 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 21:24:01,353 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 22:17:04,547 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 22:17:16,265 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 22:19:33,107 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 22:20:30,180 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 22:20:41,108 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 22:23:02,500 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 22:23:07,767 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 22:23:26,868 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 22:25:15,449 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 22:41:31,513 views Showing Inception... Accessed by user: 1
+INFO 2025-01-04 23:36:26,628 views User  logged out
+INFO 2025-01-04 23:36:35,513 views Showing Inception... Accessed by user: None
+INFO 2025-01-04 23:39:00,284 views User radu2 logged in
+INFO 2025-01-04 23:39:07,115 views Showing Inception... Accessed by user: 18
+INFO 2025-01-05 13:50:45,468 views User radu logged in
+INFO 2025-01-05 14:01:19,273 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 14:04:39,000 tasks Created random film schedule for each cinema
+INFO 2025-01-05 14:05:50,154 tasks Created random film schedule for each cinema
+INFO 2025-01-05 14:26:57,839 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 14:38:26,915 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 14:47:02,701 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 16:09:45,610 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-05 16:47:52,019 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-05 16:49:41,777 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-05 17:01:00,552 views Showing Interstellar... Accessed by user: 1
+INFO 2025-01-05 18:36:34,703 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:42:26,074 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:42:41,483 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:45:56,145 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:46:07,870 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:46:43,240 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:48:58,754 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:51:39,962 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:52:36,677 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:52:38,583 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:53:48,843 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 18:59:41,157 views Showing Inception... Accessed by user: 1
+INFO 2025-01-05 19:00:09,785 views Showing Inception... Accessed by user: 1
+INFO 2025-01-06 14:16:14,165 views Showing Inception... Accessed by user: 1
+INFO 2025-01-06 14:41:50,742 views User  logged out
+INFO 2025-01-06 15:14:49,324 views User radu2 logged in
+INFO 2025-01-06 15:16:59,312 views User  logged out
+INFO 2025-01-06 15:17:03,703 views User radu2 logged in
+INFO 2025-01-06 16:18:09,575 views User radu logged in
+INFO 2025-01-06 16:45:21,445 views Showing Parasite... Accessed by user: 1
+INFO 2025-01-06 16:49:36,159 views User  logged out
+INFO 2025-01-06 16:49:45,179 views User radu logged in
+INFO 2025-01-06 18:02:48,365 views User  logged out
+INFO 2025-01-06 18:03:47,256 views User radu logged in
+INFO 2025-01-06 18:05:10,071 views User  logged out
+INFO 2025-01-06 18:07:29,112 views User radu logged in
+INFO 2025-01-06 18:07:54,824 views User  logged out
+INFO 2025-01-06 18:07:58,838 views User radu2 logged in
+INFO 2025-01-06 18:14:35,088 views Showing Interstellar... Accessed by user: 18
+INFO 2025-01-06 19:00:23,334 views Showing The Matrix... Accessed by user: 18
+INFO 2025-01-06 19:03:20,551 views Showing ... Accessed by user: 18
+INFO 2025-01-06 19:06:41,199 views User  logged out
+INFO 2025-01-06 19:06:46,937 views User radu logged in
+INFO 2025-01-06 19:10:44,223 views Showing The Matrix... Accessed by user: 1
+INFO 2025-01-06 23:01:56,147 views User  logged out
+INFO 2025-01-06 23:02:12,562 views User radu logged in

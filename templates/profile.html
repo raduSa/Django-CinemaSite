@@ -1,0 +1,26 @@
+{% extends 'menu.html' %}
+{% load static %}
+
+{% block title %}Profil{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/profile.css' %}">
+{% endblock %}
+
+{% block content %}
+    <main class="profile-container">
+        <h2>Bun venit, {{ username }}</h2>
+        <p>Email: {{ email }}</p>
+        <p>Nume: {{ nume }} {{ prenume }}</p>
+        <p>Nr Telefon: {{ telefon }}</p>
+        <p>Localitate: {{ localitate }}</p>
+
+        <hr>
+
+        <div class="links">
+            <a href="{% url 'home' %}">Acasă</a>
+            <a href="{% url 'change_password' %}">Schimbă Parola</a>
+            <a href="{% url 'logout' %}">Delogare</a>
+        </div>
+    </main>
+{% endblock %}

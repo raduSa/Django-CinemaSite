@@ -1,0 +1,16 @@
+CRITICAL 2024-12-17 22:00:32,509 views Could not show films: The 'imagine' attribute has no file associated with it.
+CRITICAL 2024-12-17 22:01:33,007 views Could not show films: The 'imagine' attribute has no file associated with it.
+CRITICAL 2024-12-17 22:04:01,667 views Could not show films: Invalid block tag on line 12: 'static', expected 'endif'. Did you forget to register or load this tag?
+CRITICAL 2024-12-17 22:04:03,780 views Could not show films: Invalid block tag on line 12: 'static', expected 'endif'. Did you forget to register or load this tag?
+CRITICAL 2024-12-17 22:07:53,052 views Could not show films: Invalid block tag on line 12: 'static', expected 'endif'. Did you forget to register or load this tag?
+CRITICAL 2024-12-19 14:46:35,058 views Could not show Inception: Unsupported lookup 'data_difuzare' for ForeignKey or join on the field not permitted.
+CRITICAL 2024-12-19 14:46:37,647 views Could not show Inception: Unsupported lookup 'data_difuzare' for ForeignKey or join on the field not permitted.
+CRITICAL 2024-12-19 14:49:31,156 views Could not show Inception: name 'data_minima' is not defined
+CRITICAL 2024-12-19 14:49:55,797 views Could not show Inception: Unsupported lookup 'data_difuzare' for ForeignKey or join on the field not permitted.
+CRITICAL 2025-01-04 17:08:59,073 views Could not show Interstellar: name 'pret' is not defined
+CRITICAL 2025-01-04 17:09:01,870 views Could not show Interstellar: name 'pret' is not defined
+CRITICAL 2025-01-04 17:09:20,377 views Could not show Interstellar: name 'pret' is not defined
+CRITICAL 2025-01-04 17:09:44,970 views Could not show Interstellar: Cannot resolve keyword 'difuzare' into field. Choices are: bilet, data, este_3D, film, film_id, id, sala, sala_id, timp_start
+CRITICAL 2025-01-04 17:12:24,623 views Could not show Interstellar: Cannot resolve keyword 'difuzare' into field. Choices are: bilet, data, este_3D, film, film_id, id, sala, sala_id, timp_start
+CRITICAL 2025-01-04 19:44:24,923 views Could not show Inception: Invalid block tag on line 10: 'static'. Did you forget to register or load this tag?
+CRITICAL 2025-01-06 16:58:05,900 views Could not show films: Reverse for 'film/{{ film.id }}' not found. 'film/{{ film.id }}' is not a valid view function or pattern name.
