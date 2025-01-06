@@ -1,0 +1,53 @@
+form {
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form button {
+    background-color: #ff5722;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background-color: #ff784e;
+    transform: scale(1.05);
+}
+
+form button:active {
+    background-color: #e64a19;
+}
+
+ul.messages {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ul.messages li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+ul.messages li.success {
+    background-color: #4caf50;
+    color: white;
+}
+
+ul.messages li.error {
+    background-color: #f44336;
+    color: white;
+}

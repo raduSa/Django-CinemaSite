@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #121212;
+}
+
+/* Main Container */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Banner Section */
+.banner-section {
+    margin: 20px 0;
+}
+
+#banner {
+    display: none;
+    background-color: #ff5722;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: bounce 1s infinite;
+    text-align: center;
+}
+
+/* Welcome Section */
+.welcome-section h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffccbc;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+/* Links Section */
+.links-section {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: flex-start;
+}
+
+.links-section a {
+    color: #ff5722; /* Primary color */
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ff5722;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 20px;
+}
+
+.links-section a:hover {
+    background-color: #ff5722;
+    color: #ffffff;
+}
+
+/* Admin Section Styles */
+.admin {
+    margin-top: 10%;
+    color: #ffccbc; /* Use the same text color as the welcome section */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: flex-start;
+}
+
+.admin i {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.admin a {
+    color: #ff5722; /* Primary color */
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 10px;
+}
+
+.admin a:hover {
+    background-color: #ff5722;
+    color: #ffffff;
+}
+
+.separator {
+    border: 0;
+    border-top: 2px solid #ffccbc; /* Color of the line (same as primary color) */
+    margin: 2em 0;
+}
+
+.cinema-banner {
+    width: 40%; /* Makes the image full width */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+
+/* Bounce Animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}

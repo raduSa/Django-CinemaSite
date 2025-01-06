@@ -1,0 +1,88 @@
+table {
+    margin-top: 8em;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    cursor: pointer;
+}
+.text-right {
+    text-align: right;
+}
+.sort-info {
+    color: gray;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #ff5722;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 5px 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff784e;
+    transform: scale(1.05);
+}
+
+
+
+.used-promos {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.used-promos h1 {
+    color: #ff5722;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#promo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#promo-list li {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.promo-category {
+    font-weight: bold;
+}
+
+.promo-discount {
+    font-size: 1.2em;
+}
+
+.promo-link {
+    text-decoration: none;
+    color: #ff5722;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.promo-link:hover {
+    text-decoration: underline;
+}
