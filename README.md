@@ -21,4 +21,26 @@ This repository contains a web application built using Django and PostgreSQL, de
 - A virtual shopping cart stores tickets users want to purchase. At checkout, users can see all items in the cart, sorted according to various filters, and view applicable promotional discounts.
 - When a user buys tickets, a PDF receipt with purchase details is generated and emailed to them. PDFs are also saved under `temporar-facturi/` and the username of the buyer.
 
----
+## How to Use
+
+
+### Install dependecies
+```sh
+pip install -r requirements.txt
+```
+
+### Set Up the Database
+```sh
+bash setup.sh
+```
+
+### Run the Server
+```sh
+python manage.py loaddata data.json
+```
+Access the app at http://localhost:8000/app1/home
+
+### Admin Page
+Log into the admin page at http://localhost:8000/admin using the admin account:
+- **Username**: `radu`
+- **Password**: `radu`
