@@ -36,6 +36,6 @@ python3 manage.py makemigrations $APP_NAME
 python3 manage.py migrate
 
 # Load data
-python manage.py loaddata data.json
+python3 manage.py loaddata data.json
 
 echo "Database setup complete!"
