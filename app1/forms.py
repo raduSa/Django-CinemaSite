@@ -23,27 +23,30 @@ from .models import Film, Cinematograf
 from datetime import time
 
 class BileteForm(forms.Form):
-    cinema = forms.ChoiceField(
-        choices=[(cinema.oras, cinema.oras) for cinema in Cinematograf.objects.all()],
-        label='Cinema',
-        required=True
-    )
-    nume = forms.ChoiceField(
-        choices=[(None, '----')] + [(film.titlu, film.titlu) for film in Film.objects.all()], 
-        label='Nume', 
-        required=False
-    )
+    cinema = forms.ChoiceField(label='Cinema', required=True)
+    nume = forms.ChoiceField(label='Nume', required=False)
     ora_inceput = forms.TimeField(
-        label='Incepe dupa ora', 
-        widget = forms.TimeInput(format='%H:%M'), 
+        label='Incepe dupa ora',
+        widget=forms.TimeInput(format='%H:%M'),
         required=False
     )
+    
     THREE_D_CHOICES = [
         ('both', 'Ambele'),
         (True, 'Da'),
         (False, 'Nu'),
     ]
     este_3D = forms.ChoiceField(label='Este 3D', choices=THREE_D_CHOICES, required=False)
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['cinema'].choices = [
+            (cinema.oras, cinema.oras) for cinema in Cinematograf.objects.all()
+        ]
+        self.fields['nume'].choices = [(None, '----')] + [
+            (film.titlu, film.titlu) for film in Film.objects.all()
+        ]
+
     
     def clean_ora_inceput(self):
         ora_inceput = self.cleaned_data['ora_inceput']
