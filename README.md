@@ -24,7 +24,8 @@ This repository contains a web application built using Django and PostgreSQL, de
 ## How to Use
 
 ### Prerequisites
-```python``` and ```postgresql```
+- **Python**
+- **Postgresql**
 
 
 ### Install dependecies
