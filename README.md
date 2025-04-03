@@ -40,7 +40,7 @@ bash setup.sh
 
 ### Run the Server
 ```sh
-python manage.py runserver
+python3 manage.py runserver
 ```
 Access the app at http://localhost:8000/app1/home
 
