@@ -1,52 +1,62 @@
-<form method="post">
-    {% csrf_token %}
-    {{ form.non_field_errors }}
-    <div>
-        {{ form.username.label_tag }} {{ form.username }}
-        {{ form.username.errors }}
-    </div>
-    <div>
-        {{ form.first_name.label_tag }} {{ form.first_name }}
-        {{ form.first_name.errors }}
-    </div>
-    <div>
-        {{ form.last_name.label_tag }} {{ form.last_name }}
-        {{ form.last_name.errors }}
-    </div>
-    <div>
-        {{ form.email.label_tag }} {{ form.email }}
-        {{ form.email.errors }}
-    </div>
-    <div>
-        {{ form.data_nastere.label_tag }} {{ form.data_nastere }}
-        {{ form.data_nastere.errors }}
-    </div>
-    <div>
-        {{ form.telefon.label_tag }} {{ form.telefon }}
-        {{ form.telefon.errors }}
-    </div>
-    <div>
-        {{ form.password1.label_tag }} {{ form.password1 }}
-        {{ form.password1.errors }}
-    </div>
-    <div>
-        {{ form.password2.label_tag }} {{ form.password2 }}
-        {{ form.password2.errors }}
-    </div>
-    <div>
-        {{ form.student.label_tag }} {{ form.student }}
-        {{ form.student.errors }}
-    </div>
-    <div>
-        {{ form.pensionar.label_tag }} {{ form.pensionar }}
-        {{ form.pensionar.errors }}
-    </div>
-    <div>
-        {{ form.localitate.label_tag }} {{ form.localitate }}
-        {{ form.localitate.errors }}
-    </div>
-    <button type="submit">Register</button>
-</form>
+{% extends 'menu.html' %}
+{% load static %}
 
+{% block title %}Register{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form.non_field_errors }}
+        <div>
+            {{ form.username.label_tag }} {{ form.username }}
+            {{ form.username.errors }}
+        </div>
+        <div>
+            {{ form.first_name.label_tag }} {{ form.first_name }}
+            {{ form.first_name.errors }}
+        </div>
+        <div>
+            {{ form.last_name.label_tag }} {{ form.last_name }}
+            {{ form.last_name.errors }}
+        </div>
+        <div>
+            {{ form.email.label_tag }} {{ form.email }}
+            {{ form.email.errors }}
+        </div>
+        <div>
+            {{ form.data_nastere.label_tag }} {{ form.data_nastere }}
+            {{ form.data_nastere.errors }}
+        </div>
+        <div>
+            {{ form.telefon.label_tag }} {{ form.telefon }}
+            {{ form.telefon.errors }}
+        </div>
+        <div>
+            {{ form.password1.label_tag }} {{ form.password1 }}
+            {{ form.password1.errors }}
+        </div>
+        <div>
+            {{ form.password2.label_tag }} {{ form.password2 }}
+            {{ form.password2.errors }}
+        </div>
+        <div>
+            {{ form.student.label_tag }} {{ form.student }}
+            {{ form.student.errors }}
+        </div>
+        <div>
+            {{ form.pensionar.label_tag }} {{ form.pensionar }}
+            {{ form.pensionar.errors }}
+        </div>
+        <div>
+            {{ form.localitate.label_tag }} {{ form.localitate }}
+            {{ form.localitate.errors }}
+        </div>
+        <button type="submit">Register</button>
+    </form>
+{% endblock %}
 
 
